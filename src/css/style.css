@@ -1,0 +1,22 @@
+body{
+    background-color: var(--neutral-dark);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+}
+
+.card{
+    max-width: 349px;
+    background-color: var(--neutral-medium);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+}
