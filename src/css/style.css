@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 body{
     background-color: var(--neutral-dark);
+    font-family: 'Outfit', sans-serif;
 }
 
 main{
@@ -16,7 +19,67 @@ main{
     padding: 25px;
 }
 
-img{
+.card img{
     width: 100%;
     border-radius: 8px;
+}
+
+.title-link .title{
+    font-size: 22px;
+    color: #ffffff;
+    padding-top: 20px;
+    transition: .5s;
+}
+
+.title-link .title:hover{
+    color: var(--primary-medium);
+}
+
+.about{
+    font-size: 18px;
+    color: var(--primary-soft);
+    padding-top: 20px;
+    line-height: 26px;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+.information .valor{
+    font-size: 16px;
+    color: var(--primary-medium);
+}
+
+.information .days{
+    font-size: 16px;
+    color: var(--primary-soft);
+}
+
+.creator{
+    padding-top: 40px;
+    display: flex;  
+    align-items: center;
+}
+
+.creator img{
+    width: 35px;
+    border-radius: 1px solid white;
+}
+
+.creator .creator-name{
+    padding-left: 16px;
+    font-size: 16px;
+    color: var(--primary-soft);
+}
+
+.creator .creator-name .name{
+    color: #ffffff;
+    transition:.5s;
+}
+
+.creator .creator-name .name:hover{
+    color: var(--primary-medium);   
 }
