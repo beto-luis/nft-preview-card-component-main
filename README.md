@@ -17,7 +17,6 @@ In this challenge I tested my knowledge and my difficulty in creating and unders
 <li>Semantic HTML5</li>
 <li>CSS properties</li>
 <li>Flexbox</li>
-<li>Responsiveness</li>
 
 <br>
 
