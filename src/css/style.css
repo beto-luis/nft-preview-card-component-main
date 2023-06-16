@@ -3,6 +3,9 @@
 body{
     background-color: var(--neutral-dark);
     font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    max-width: 1440px;
+    margin: auto;
 }
 
 main{
