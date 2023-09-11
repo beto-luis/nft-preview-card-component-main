@@ -151,3 +151,7 @@ main{
 .creator .creator-name .name:hover{
     color: var(--primary-medium);   
 }
+
+.sr-only{
+    display: none;
+}
